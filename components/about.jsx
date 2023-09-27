@@ -59,9 +59,9 @@ const About = () => {
                 transition={{ duration: 1, delay:0.4}}
                 >
                 <p className="mt-3 text-lg md:text-2xl"><mark className='bg-black text-primary-white italic'>Seeking for summer 2024 internship</mark></p>
-                <a target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1yxtDU1XY9SDFd57e-VpL9j025bLOfkAl/view?usp=sharing'  type='button' className='mt-4 bg-primary-black text-primary-white w-40 rounded-full p-2 hover:opacity-80'>
-                    <p className='text-sm italic'>Download <br></br> Resume</p>
-                </a>
+                <button  type='button' className='mt-4 bg-primary-black text-primary-white w-40 rounded-full p-2 hover:opacity-80'>
+                    <a target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1yxtDU1XY9SDFd57e-VpL9j025bLOfkAl/view?usp=sharing' className='text-sm italic w-full h-full'>Download <br></br> Resume</a>
+                </button>
                 <div className='hidden md:flex mt-4 flex-row space-x-5 ml-1'>
                     <a className='cursor-pointer' href='https://www.linkedin.com/in/williamyy777/' target="_blank" rel="noreferrer">
                         <AiFillLinkedin className='md:text-3xl hover:scale-125 duration-150 drop-shadow-xl'/>
