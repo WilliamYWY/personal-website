@@ -7,7 +7,7 @@ import Typer_hair from '@components/typer_hair';
 import hairImage from '@public/assets/images/hAIr.png'
 import Typer_tri from '@components/typer_triplet';
 import triImage from '@public/assets/images/tri.png'
-import Typer_mintmatch from '@components/Typer_mintmatch';
+import Typer_mintmatch from '@components/typer_mintmatch';
 import mintmatchImage from '@public/assets/images/mintmatch.png'
 import { AiFillGithub, AiFillVideoCamera} from "react-icons/ai";
 import {FaGoogleDrive } from "react-icons/fa";
