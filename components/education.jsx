@@ -13,7 +13,7 @@ const Education = () => {
     const [cardFlip2, setCardFlip2] = useState(false)
   return (
     <div id='edu' className='bg-primary-gray w-full h-screen text-center pl-5 pr-5 pt-16 lg:pt-56'>
-        <h1 className="text-6xl italic text-primary-black">Education</h1>
+        <h1 className="mb-10 lg:mb-0 text-6xl italic text-primary-black">Education</h1>
         <div className='mt-5 flex flex-col lg:flex-row justify-center items-center h-5/6 pb-5 lg:pb-16  space-y-20 lg:justify-center lg:space-y-0 lg:pl-10 lg:pr-10 lg:space-x-10 xl:space-x-20 2xl:space-x-48'>
             <ReactCardFlip isFlipped={cardFlip1} flipDirection="horizontal">
                 <button onClick={() => setCardFlip1(true)} className='hover:scale-110 duration-200 delay-75'>

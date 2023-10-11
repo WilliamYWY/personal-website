@@ -11,6 +11,7 @@ import Typer_mintmatch from '@components/typer_mintmatch';
 import mintmatchImage from '@public/assets/images/mintmatch.png'
 import { AiFillGithub, AiFillVideoCamera} from "react-icons/ai";
 import {FaGoogleDrive } from "react-icons/fa";
+import { motion, useScroll } from "framer-motion"
 
 
 import React, { useRef, useState } from 'react';
@@ -39,13 +40,20 @@ const Projects = () => {
   return (
     <div id='project' className='w-full h-screen bg-primary-gray text-center pt-16 pl-5 pr-5 hidden lg:block'>
         <h1 className='text-6xl italic text-primary-black'>PROJECT</h1>
-        <div className='relative flex flex-col items-center justify-center h-5/6 w-full border-y-2 border-primary-white mt-3'>
+        <motion.div
+            initial={{ scaleX:0 }}
+            whileInView={{ scaleX:1 }}
+            transition={{duration: 1}}
+        >
+          <div className='h-0 w-full border-y-2 border-primary-white mt-3'></div>
+        </motion.div>
+        <div className='relative flex flex-col items-center justify-center h-5/6 w-full'>
             <div className='w-2/3 flex flex-col items-center justify-center'>
             <Swiper
             spaceBetween={30}
             centeredSlides={true}
             autoplay={{
-            delay: 12000,
+            delay: 9000,
             disableOnInteraction: false,
             }}
             modules={[Autoplay]}
@@ -139,6 +147,13 @@ const Projects = () => {
         </Swiper>
         </div>
         </div>
+        <motion.div
+            initial={{ scaleX:0 }}
+            whileInView={{ scaleX:1 }}
+            transition={{duration: 1}}
+        >
+          <div className='relative flex flex-col items-center justify-center h-0 w-full border-y-2 border-primary-white mt-3'></div>
+        </motion.div>
     </div>
   )
 

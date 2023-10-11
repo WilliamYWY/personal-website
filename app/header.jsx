@@ -1,10 +1,27 @@
 'use client'
-import { AiFillGithub } from "react-icons/ai";
-import { BiLogoLinkedin } from "react-icons/bi";
 import { motion, useScroll } from "framer-motion"
+import { useEffect, useState } from "react";
+import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 
 
 const Header = () => {
+  const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+
+    handleScroll();
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+
+  }, []);
+
+  
   return (
     <section>
     <motion.div
@@ -22,6 +39,14 @@ const Header = () => {
               <h1 className='text-2xl sm:text-3xl'>William, Yang</h1>
             </a>
           </motion.div>
+          </div>
+          <div className={`${scrollY > 440 ? "opacity-100" : "opacity-0"} transition-opacity ease-in-out duration-200 flex flex-row sm:hidden space-x-5 absolute`}>
+            <a className={`${scrollY > 440 ? "pointer-events-auto" : "pointer-events-none"} cursor-pointer`} href='https://www.linkedin.com/in/williamyy777/' target="_blank" rel="noreferrer">
+                <AiFillLinkedin className='text-2xl hover:scale-125 duration-150 drop-shadow-xl'/>
+            </a>
+            <a className={`${scrollY > 440 ? "pointer-events-auto" : "pointer-events-none"} cursor-pointer`} href='https://github.com/WilliamYWY' target="_blank" rel="noreferrer">
+                <AiFillGithub className='text-2xl hover:scale-125 duration-150 drop-shadow-xl'/>
+            </a>
           </div>
           <div className='hidden sm:flex sm:w-1/3 sm:justify-end sm:space-x-10'>
           <motion.div

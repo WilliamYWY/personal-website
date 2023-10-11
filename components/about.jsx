@@ -5,6 +5,7 @@ import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import { motion, useScroll, AnimatePresence } from "framer-motion"
 
 const About = () => {
+    
   return (
     <div id='about' className='w-full h-screen bg-primary-gray'>
         <div className="flex flex-col h-screen w-screen pt-16 md:flex-row-reverse md:justify-center md:items-center">

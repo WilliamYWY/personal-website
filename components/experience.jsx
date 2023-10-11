@@ -16,9 +16,12 @@ const Experience = () => {
         }
     }
 
+    function handleScroll() {
+        console.log("scrolled to element")
+    }
 
   return (
-    <div id="exp" className='hidden md:block w-full h-screen bg-primary-white text-center pt-20 pl-10 pr-10 lg:pl-20 lg:pr-20 relative'>
+    <div onScroll={handleScroll} id="exp" className='hidden md:block w-full h-screen bg-primary-white text-center pt-20 pl-10 pr-10 lg:pl-20 lg:pr-20 relative'>
         <h2 className='md:text-3xl lg:text-5xl 2xl:text-6xl italic text-light-black text-left'>
         It’s a great pleasure to work and learn in these places!
         </h2>
@@ -85,8 +88,8 @@ const Experience = () => {
             </div>
         </div>
         <motion.div
-        initial={{opacity:0.5, x:50, y:200}}
-        whileInView={{opacity:1, x:[null, -5, 0]}}
+        initial={{opacity:0.5, x:50, y:150}}
+        whileInView={{opacity:1, x:[null, -10, 0]}}
         transition={{duration:1}}
         >
 
