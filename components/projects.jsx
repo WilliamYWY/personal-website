@@ -69,7 +69,7 @@ const Projects = () => {
                   <div className="absolute w-full flex justify-center -bottom-10 group-hover:-translate-y-16 duration-200">
                         <AiFillVideoCamera className="text-4xl hover:scale-110 duration-150 text-white" />
                     </div>
-                  <Image src={mintmatchImage} className='bg-primary-gray'></Image>
+                  <Image src={mintmatchImage} className='bg-primary-gray' alt='mintmatch_photo'></Image>
                 </a>
                 <div className='w-3/5 h-5/6 flex text-center items-center justify-center pl-10 pr-10'>
                   <div className='w-auto h-auto border-y-2 flex text-dark-white text-center items-center justify-center pl-10 pr-10'>
@@ -88,7 +88,7 @@ const Projects = () => {
                   <div className="absolute w-full flex justify-center -bottom-10 group-hover:-translate-y-16 duration-200">
                         <AiFillGithub className="text-4xl hover:scale-110 duration-150 text-white" />
                     </div>
-                  <Image src={ethImage}></Image>
+                  <Image src={ethImage} alt='eth_image'></Image>
                 </a>
                 <div className='w-3/5 h-5/6 flex text-center items-center justify-center pl-10 pr-10'>
                   <div className='w-auto h-auto border-y-2 flex text-dark-white text-center items-center justify-center pl-10 pr-10'>
@@ -107,7 +107,7 @@ const Projects = () => {
                     <div className="absolute w-full flex justify-center -bottom-10 group-hover:-translate-y-16 duration-200 z-10">
                           < FaGoogleDrive className="text-4xl hover:scale-110 duration-150 text-white" />
                       </div>
-                    <Image src={hairImage} className='scale-105 -z-10'></Image>
+                    <Image src={hairImage} className='scale-105 -z-10' alt='hAIr_photo'></Image>
                   </a>
 
                 <div className='w-3/5 h-5/6 flex text-center items-center justify-center pl-10 pr-10'>
@@ -127,7 +127,7 @@ const Projects = () => {
                     <div className="absolute w-full flex justify-center -bottom-10 group-hover:-translate-y-16 duration-200">
                           <AiFillGithub className="text-4xl hover:scale-110 duration-150 text-white" />
                       </div>
-                    <Image src={triImage}></Image>
+                    <Image src={triImage} alt='TriLoss_photo'></Image>
                   </a>
                 <div className='w-3/5 h-5/6 flex text-center items-center justify-center pl-10 pr-10'>
                   <div className='w-auto h-auto border-y-2 flex text-dark-white text-center items-center justify-center pl-10 pr-10'>

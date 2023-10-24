@@ -1,19 +1,16 @@
+'use client'
 import '@styles/globals.css'
-
-export const metadata = {
-    title: "William Yang",
-    description: 'Personal Website'
-}
+import Header from './header'
+import { AnimatePresence, motion } from "framer-motion";
 
 const RootLayout = ({children}) => {
   return (
-    <html lang='en' className='scroll-smooth'>
-      <body>
+      <div>
+        <Header/>
         <main className='app'>
             {children}
         </main>
-      </body>
-    </html>
+      </div>
   )
 }
 
