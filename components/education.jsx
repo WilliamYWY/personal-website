@@ -18,7 +18,7 @@ const Education = () => {
             <ReactCardFlip isFlipped={cardFlip1} flipDirection="horizontal">
                 <button onClick={() => setCardFlip1(true)} className='hover:scale-110 duration-200 delay-75'>
                     <div className='w-[350px] h-[200px] sm:w-[560px] drop-shadow-2xl sm:h-[300px] rounded-3xl bg-primary-white flex flex-col justify-center items-center'>
-                        <Image src={CT} className='scale-110' ></Image>
+                        <Image src={CT} className='scale-110' alt='CT_photo'></Image>
                     </div>
                 </button>
 
@@ -35,7 +35,7 @@ const Education = () => {
             <ReactCardFlip isFlipped={cardFlip2} flipDirection="horizontal">
                 <button onClick={() => setCardFlip2(true)} className='hover:scale-110 duration-200 delay-75'>
                     <div className='w-[350px] h-[200px] sm:w-[560px] drop-shadow-2xl sm:h-[300px] rounded-3xl bg-primary-white flex flex-col justify-center items-center'>
-                        <Image src={TMU} className='scale-75'></Image>
+                        <Image src={TMU} className='scale-75' alt='TMU_photo'></Image>
                     </div>
                 </button>
 

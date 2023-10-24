@@ -28,12 +28,12 @@ const Skills_mobile = () => {
                 </motion.div>
                 </div>
             </div>
-            <div className="flex flex-col items-end border-primary-gray flex-1 h-1/3 pl-4 pr-4">
+            <div className="flex flex-col items-end border-primary-gray flex-1 h-1/3 pl-4 pr-4 overflow-hidden">
                 <h1 className="text-primary-black italic text-xl">Libs & Tools</h1>
                 <div className="border-t-2 border-primary-black w-5/6"></div>
                 <div className="w-5/6 mt-4 flex flex-row justify-between space-x-2">
                 <motion.div
-                    initial={{opacity:0, x:100}}
+                    initial={{opacity:0, x:-100}}
                     whileInView={{opacity:1, x:0}}
                     transition={{duration:1}}
                     >
