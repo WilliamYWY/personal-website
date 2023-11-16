@@ -61,7 +61,7 @@ const About = () => {
                 >
                 <p className="mt-3 text-lg md:text-2xl"><mark className='bg-black text-primary-white italic'>Seeking for summer 2024 internship</mark></p>
                 <button  type='button' className='mt-4 bg-primary-black text-primary-white w-40 rounded-full p-2 hover:opacity-80'>
-                    <a target="_blank" rel="noreferrer" href='https://docs.google.com/document/d/1sIu_X-W9mDZssxoC9O5dPYzGRjcNM_rg/edit?usp=sharing&ouid=114169537296364624121&rtpof=true&sd=true' className='text-sm italic w-full h-full'>Download <br></br> Resume</a>
+                    <a target="_blank" rel="noreferrer" href='https://docs.google.com/document/d/1OBDdWGnjoyHt7oiRjW4fvmTVUAiSe7TyOLhf9--ZoZs/edit?usp=sharing' className='text-sm italic w-full h-full'>Download <br></br> Resume</a>
                 </button>
                 <div className='hidden md:flex mt-4 flex-row space-x-5 ml-1'>
                     <a className='cursor-pointer' href='https://www.linkedin.com/in/williamyy777/' target="_blank" rel="noreferrer">
