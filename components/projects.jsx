@@ -8,7 +8,7 @@ import hairImage from '@public/assets/images/hAIr.png'
 import Typer_tri from '@components/typer_triplet';
 import triImage from '@public/assets/images/tri.png'
 import Typer_mintmatch from '@components/typer_mintmatch';
-import mintmatchImage from '@public/assets/images/mintmatch.png'
+import mintmatchImage from '@public/assets/images/MintMatch_demo.png'
 import { AiFillGithub, AiFillVideoCamera} from "react-icons/ai";
 import {FaGoogleDrive } from "react-icons/fa";
 import { motion, useScroll } from "framer-motion"
@@ -62,15 +62,16 @@ const Projects = () => {
         >
             <SwiperSlide className='bg-light-black/80 rounded-2xl' style={{"height": "auto"}}>
               <div className='w-full h-[500px] flex flex-row items-center justify-center space-x-10 ml-10'>
-                <a target="_blank" rel="noreferrer" href="https://www.canva.com/design/DAFvV3fdaGo/a77okZsEnezx90ybP_ZwJg/view?utm_content=DAFvV3fdaGo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" className='w-2/5 rounded-2xl overflow-hidden shadow-xl shadow-slate-50/40 relative group'>
+                <a target="_blank" rel="noreferrer" href="https://github.com/WilliamYWY/MintMatch_devlogs" className='h-[70%] w-2/5 rounded-2xl overflow-hidden shadow-xl shadow-slate-50/40 relative group'>
                   <div className='bg-primary-white/0 group-hover:bg-primary-black/40 absolute w-full h-full duration-200 cursor-pointer flex justify-center items-center'>
                     <h1 className='text-primary-white/0 group-hover:text-primary-white text-xl'>MintMatch</h1>
                   </div>
                   <div className="absolute w-full flex justify-center -bottom-10 group-hover:-translate-y-16 duration-200">
-                        <AiFillVideoCamera className="text-4xl hover:scale-110 duration-150 text-white" />
+                        <AiFillGithub className="text-4xl hover:scale-110 duration-150 text-white" />
                     </div>
-                  <Image src={mintmatchImage} className='bg-primary-gray' alt='mintmatch_photo'></Image>
+                    <Image src={mintmatchImage} className='bg-primary-gray' alt='mintmatch_photo'></Image>
                 </a>
+
                 <div className='w-3/5 h-5/6 flex text-center items-center justify-center pl-10 pr-10'>
                   <div className='w-auto h-auto border-y-2 flex text-dark-white text-center items-center justify-center pl-10 pr-10'>
                   <Typer_mintmatch options={{autoStart: true, loop: true,}}/>

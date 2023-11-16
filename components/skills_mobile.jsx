@@ -55,7 +55,7 @@ const Skills_mobile = () => {
                         <li className="invisible"></li>
                         <li className="invisible"></li>
                         <li>NextJS</li>
-                        <li>TailwindCSS</li>
+                        <li>React/React Native</li>
                         <li>Docker</li>
                         <li>Git</li>
                         
@@ -73,7 +73,7 @@ const Skills_mobile = () => {
                     transition={{duration:1}}
                     >
                 <ul className="list-disc text-left text-light-black italic text-lg">
-                    <li>Backend</li>
+                    <li>FullStack</li>
                     <li>Machine Learning</li>
                     <li>Blockchain</li>
                     <li>Health Tech</li>

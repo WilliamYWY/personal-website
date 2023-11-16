@@ -54,7 +54,7 @@ const ProjectsMobile = () => {
                         <div className={`bg-primary-gray h-full inset-0 m-auto absolute rounded-2xl opacity-0 group-hover:opacity-30 duration-200`}>
                         </div>
                         <div className="h-1/3 flex justify-center items-center z-10 absolute -bottom-1/3 left-0 right-0 rounded-bl-lg rounded-br-lg group-hover:-translate-y-full duration-200">
-                            <a target="_blank" rel="noreferrer" href="https://www.canva.com/design/DAFvV3fdaGo/a77okZsEnezx90ybP_ZwJg/view?utm_content=DAFvV3fdaGo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" className="">
+                            <a target="_blank" rel="noreferrer" href="https://github.com/WilliamYWY/MintMatch_devlogs" className="">
                                 <AiFillGithub className="text-4xl hover:scale-110 duration-150 text-white" />
                             </a>
                         </div>

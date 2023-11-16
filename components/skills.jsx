@@ -20,6 +20,7 @@ const Skills = () => {
                     <li>Java</li>
                     <li>HTML / CSS / JavaScript</li>
                     <li>Solidity</li>
+                    <li>Rust</li>
                 </ul>
                 </motion.div>
             </div>
@@ -52,7 +53,7 @@ const Skills = () => {
                         <li className="invisible"></li>
                         <li className="invisible"></li>
                         <li>NextJS</li>
-                        <li>Tailwind CSS</li>
+                        <li>React/React Native</li>
                         <li>Docker</li>
                         <li>Git</li>
                     </ul>
@@ -69,7 +70,7 @@ const Skills = () => {
                     transition={{duration:1}}
                     >
                 <ul className="list-disc text-left text-light-black lg:pl-10 space-y-5 lg:space-y-8 lg:mt-3">
-                    <li>Backend</li>
+                    <li>Fullstack</li>
                     <li>Machine Learning</li>
                     <li>Blockchain</li>
                     <li>Health Tech</li>
